@@ -1,6 +1,3 @@
-// Dart imports:
-import 'dart:html';
-
 // Flutter imports:
 import 'package:flutter/material.dart';
 
@@ -51,12 +48,10 @@ class _MyHomePageState extends State<MyHomePage> {
           items: [1].map((i) {
             return Builder(
               builder: (BuildContext context) {
-                return Container(
-                  child: Column(
-                    children: <Widget>[
-                      SvgPicture.asset('assets/images/flutter-logo.svg'),
-                    ],
-                  ),
+                return Column(
+                  children: <Widget>[
+                    SvgPicture.asset('assets/images/flutter-logo.svg'),
+                  ],
                 );  
               },
             );
